@@ -9,7 +9,7 @@ while i<int
   else
     (2..int/2).none? {|i| int % i==0}
   end 
-  end
+  
 
 
 
