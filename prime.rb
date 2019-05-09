@@ -4,6 +4,7 @@ i=2
 while i<int
   if int % i==0
     return false 
+  end
     i+=1
     # elsif int == -1
     # return false
