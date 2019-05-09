@@ -6,15 +6,11 @@ while i<int
     return false 
   elsif int ==2
     return true
-#
-  def prime? (n)
-    if n <= 1
-        false
-    elsif n == 2
-        true
-    else 
-        (2..n/2).none? { |i| n % i == 0}
-    end
-end
+  else
+    (2..int/2).none? {|i| int % i==0}
+  end 
+  end
+
+
 
   
