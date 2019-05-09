@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(int)
-i=2
+# i=2
 # while i<int
   if int <=1
     false 
